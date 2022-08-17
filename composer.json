@@ -1,0 +1,35 @@
+{
+  "name": "deso-smart/laravel-deso-txns-executor",
+  "description": "Laravel DeSo Txns Executor",
+  "keywords": [
+    "laravel",
+    "deso",
+    "txns"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Artem Didyk",
+      "email": "this.github@azate.email"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "illuminate/contracts": "^9",
+    "illuminate/config": "^9",
+    "illuminate/http": "^9",
+    "illuminate/support": "^9"
+  },
+  "autoload": {
+    "psr-4": {
+      "DesoSmart\\DesoTxnsExecutor\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "DesoSmart\\DesoTxnsExecutor\\PackageServiceProvider"
+      ]
+    }
+  }
+}
